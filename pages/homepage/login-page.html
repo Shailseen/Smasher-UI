@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://simple-ui-component.netlify.app/style.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+    />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login-page.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar box-shadow">
+      <div class="brand-name">
+        <a class="text-style-none font-lg" href="./index.html"
+          ><h4>smasher</h4></a
+        >
+      </div>
+      <div class="searchbar">
+        <input
+          class="inputbox-style"
+          type="text"
+          placeholder="Search item..."
+        />
+        <button><i class="fal fa-search searchbar-style"></i></button>
+      </div>
+      <div class="cta-button">
+        <button class="button-style-none solid-button">Login</button>
+
+        <div class="icon-label-container">
+          <a href=""><i class="far fa-heart"></i></a>
+          <div class="badge badge-icon-card">6</div>
+        </div>
+
+        <div class="icon-label-container">
+          <a href=""><i class="far fa-shopping-bag"></i></a>
+          <div class="badge badge-icon-card">6</div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="card-container box-shadow">
+          <h2>Login</h2>
+        <div class="login-container">
+          <div class="form-input">
+            <label for="input-email" class="input-label">Email address</label>
+            <input type="email" class="input-email input-text m-b-1r" placeholder="abc@gmail.com"/>
+            <label for="input-pass" class="input-label">Password</label>
+            <input type="password" class="input-pass input-text m-b-1r" placeholder="************"/>
+          </div>
+          <div class="form-utils m-b-1r">
+              <input type="checkbox" name="remember-me" id="remember"><label>Remember me</label>
+              <a href="" class="forgot-pass">Forgot Password?</a>
+          </div>
+          <button class="button-style-none solid-button m-b-1r">Login</button>
+          <div class="create-accnt-container">
+          <a href="" class="create-accnt">Create New Account</a>
+          <i class="far fa-angle-right"></i>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-main">
+        <div class="copy-right">
+          <i class="fal fa-copyright"></i> 2022 SMASHER UI Inc. All rights reserved.
+        </div>
+        <div class="icon-container">
+          <a class="footer-icon" href=""><i class="fab fa-github"></i></a>
+          <a class="footer-icon" href=""><i class="fab fa-twitter"></i></a>
+          <a class="footer-icon" href=""><i class="fab fa-linkedin-in"></i></a>
+      </footer>
+  </body>
+</html>
