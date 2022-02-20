@@ -1,0 +1,39 @@
+@import url(/pages/homepage/product-page.css);
+
+.main{
+    background-color: var(--secondary-color);
+    height: auto;
+}
+.wishlist-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 0rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.card-vertical{
+    background-color: var(--white-color);
+}
+.card-vertical:hover{
+    transform: none;
+}
+.heading-wishlist{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+.badge-card i{
+    cursor: pointer;
+    font-size: x-large;
+}
+.solid-button{
+    width: 100%;
+}
+.card-button-container{
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+    margin: 0 1rem;
+}
+.footer-main{
+    background-color: var(--white-color);
+}
